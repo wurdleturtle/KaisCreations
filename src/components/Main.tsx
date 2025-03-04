@@ -16,13 +16,13 @@ function Main() {
 
       <div className="grid-container">
         <div className="grid-item">
-          <img src="src/components/images/1.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai1.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/2.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai2.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/3.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai3.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem
@@ -46,13 +46,13 @@ function Main() {
       <br />
       <div className="grid-container">
         <div className="grid-item">
-          <img src="src/components/images/4.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai4.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/5.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai5.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/6.jpg" width={"300px"} />
+          <img src="https://images.wurdle.eu/kai6.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem
