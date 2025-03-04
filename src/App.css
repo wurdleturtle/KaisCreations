@@ -1,0 +1,11 @@
+
+html {
+  background-color: rgb(255, 250, 205);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
