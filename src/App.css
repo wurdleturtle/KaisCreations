@@ -1,14 +1,10 @@
 #root, html {
-    background-color: #2a2a2a;
-    color: #ffffff;
-    font-family: mc;
+    background-color: #ffefd7;
+    color: #ffc772;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .AlertButton {
     text-align: center;
-}
-@font-face {
-    font-family: "mc";
-    src: url(assets/minecraft.ttf);
 }
 .text {
     text-align: center;
@@ -40,7 +36,9 @@
 .fakebutton {
     text-decoration: none;
     color: #1a1a1a;
-    outline: 2px solid #676767;
+    outline: 2px solid #ffc772;
+    background-color: #fae3a4;
+    padding: 10px;
 }
 
 /* Member Colours */
@@ -88,3 +86,32 @@
     scale: 2;
     background-color: #ff2e62;
 }
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Optional gap between items */
+    width: 100%; /* Ensures the container takes full width */
+  }
+  
+  .grid-item {
+    flex: 1 1 30%; /* Makes each item take up about 30% of the container width, you can adjust this */
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Ensures the image covers the entire grid item area */
+  }
+  
+  @media (max-width: 600px) {
+    .grid-item {
+      flex: 1 1 45%;
+    }
+  }
