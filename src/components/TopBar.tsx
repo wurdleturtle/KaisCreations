@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "../App.css";
 const TopBar = () => {
   return (
     <div className="bg-blue-600 p-4 flex items-center shadow-lg">
@@ -25,24 +25,6 @@ const TopBar = () => {
           className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200 fakebutton"
         >
           Members
-        </Link>
-        <Link
-          to="/articles"
-          className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200 fakebutton"
-        >
-          Articles
-        </Link>
-        <Link
-          to="/chat"
-          className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200 fakebutton"
-        >
-          Chat
-        </Link>
-        <Link
-          to="/gambling"
-          className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-gray-200 fakebutton"
-        >
-          Gambling
         </Link>
       </div>
     </div>
