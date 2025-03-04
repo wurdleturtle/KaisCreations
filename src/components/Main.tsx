@@ -49,10 +49,10 @@ function Main() {
           <img src="src/components/images/4.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/2.jpg" width={"300px"} />
+          <img src="src/components/images/5.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
-          <img src="src/components/images/1.jpg" width={"300px"} />
+          <img src="src/components/images/6.jpg" width={"300px"} />
         </div>
         <div className="grid-item">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi autem
